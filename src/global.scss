@@ -1,0 +1,32 @@
+$background:#353353;
+$background2:#f9f9ff;
+$hover:#ffd15c;
+
+
+.mb-2r{
+    margin-bottom: 2rem;
+}
+.active{
+    color: $hover;
+}
+button{
+    cursor: pointer;
+    background-color: #ff4c60;
+    color: white;
+    padding: 0.5rem 2rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    transition: ease 0.3s;
+}
+button:hover{
+    transform: scale(0.9);
+    opacity: 0.8;
+}
+.circle{
+    position:absolute;
+  transform:translate(-50%,-50%);
+  height:35px;
+  width:35px;
+  border-radius:50%;
+  border:2px solid black;
+}

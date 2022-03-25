@@ -2,29 +2,38 @@
 
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 4rem;
-  background-color: #454545;
-  padding: 0 0.5rem;
+  width: 29rem;
+  height: 100vh;
+  padding-left: 4rem;
+  background-color: $background;
   color: white;
   position: fixed;
   top: 0;
   left: 0;
-
+  border-right: 1px solid rgba($color: #fff, $alpha: 0.1) ;
+ 
   .menu-links {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    gap: 2rem;
+    // align-items: center;
   }
-  .menu-link {
-    padding: 0.3rem;
+  .logo {
+    margin-top: 5rem;
+    font-size: 2.7rem;
   }
-  .menu-link:hover {
-    color: red;
+  .head-footer{
+    margin-bottom: 1rem;
   }
-  .social a{
-    padding: 0.2rem;
-  }
+}
+.menu-link{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.menu-link:hover{
+  color: $hover;
+  transition: ease 0.4s;
 }

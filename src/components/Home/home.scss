@@ -1,4 +1,46 @@
 @import "../../global";
 .home{
-    margin-top: 4rem;
+    margin-left: 29rem;
+    height: 100vh;
+    background-color: $background;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    .avatar{
+        width: 12rem;
+        height: 12rem;
+        background-color: wheat;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .job{
+        font-size: 1.5rem;
+    }
+    .social-logo{
+        font-size: 2rem;
+    }
+    .social-logo:hover{
+        color: $hover;
+    }
+    .social-logo:not(:last-child){
+        margin-right: 2rem;
+    }
+    .name{
+        font-size: 2.7rem;
+    }
+    .scroll{
+        position: absolute;
+        bottom: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 1rem;
+        & p{
+            margin-bottom: 1rem;
+        }
+    }
 }
