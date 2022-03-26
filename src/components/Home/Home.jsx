@@ -1,10 +1,13 @@
 import "./home.scss";
 import React from "react";
+import avatar from "../../asset/images/avatar.jpg";
 
 function Home() {
   return (
     <div className="home">
-      <div className="avatar mb-2r"></div>
+      <div className="avatar mb-2r">
+        <img className="avatar-img" src={avatar} alt="" />
+      </div>
       <h1 className="name mb-2r">Dang Anh Tuan</h1>
       <p className="job mb-2r">I'm a Front-End developer</p>
       <div className="social mb-2r">

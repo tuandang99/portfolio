@@ -15,7 +15,14 @@
         background-color: wheat;
         border-radius: 50%;
         overflow: hidden;
+        object-position: center;
     }
+    .avatar-img{
+        width: 100%;
+        cursor: pointer;
+    }
+    
+
     .job{
         font-size: 1.5rem;
     }
