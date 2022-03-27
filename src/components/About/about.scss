@@ -36,9 +36,39 @@
     .left{
         font-size: 1.4rem;
         line-height: 1.5;
+        margin-top: 2rem;
         &-content{
             margin-bottom: 3rem;
         }
+    }
+    .right{
+      .right-item:not(:last-child){
+        margin-bottom: 2rem;
+      }
+      .right-item-title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 2rem;
+        font-size: 1.6rem;
+        & span{
+          margin-right: 1.2rem;
+        }
+      }
+      .range{
+        width: 34rem;
+        height: 0.8rem;
+        border-radius: 2rem;
+        background-color: #f1f1f1;
+        overflow: hidden;
+        .percent{
+          width: 20rem;
+          background-color: rgb(123, 105, 141);
+          height: 0.8rem;
+          border-radius: 2rem;
+          transform: translateX(-1px);
+        }
+      }
     }
   }
   .content {

@@ -14,13 +14,41 @@ function About() {
           <div className="intro">
             <div className="left">
               <p className="left-content">
-                I am Bolby Doe, web developer from London, United Kingdom. I
-                have rich experience in web site design and building and
-                customization, also I am good at WordPress.
+                I am Tuan, web developer from Ho Chi Minh, Viet Nam. I have rich
+                experience in web site design and building and customization,
+                also I am good at WordPress.
               </p>
               <button className="down-btn">Download CV</button>
             </div>
-            <div className="right"></div>
+            <div className="right">
+              <div className="right-item">
+                <div className="right-item-title">
+                  <p>Development</p>
+                  <span>85%</span>
+                </div>
+                <div className="range">
+                  <div className="percent"></div>
+                </div>
+              </div>
+              <div className="right-item">
+                <div className="right-item-title">
+                  <p>Creative</p>
+                  <span>85%</span>
+                </div>
+                <div className="range">
+                  <div className="percent"></div>
+                </div>
+              </div>
+              <div className="right-item">
+                <div className="right-item-title">
+                  <p>Hardworking</p>
+                  <span>85%</span>
+                </div>
+                <div className="range">
+                  <div className="percent"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

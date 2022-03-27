@@ -2,6 +2,7 @@
 .home{
     margin-left: 29rem;
     height: 100vh;
+    background: url(../../asset/images/background.png);
     background-color: $background;
     color: white;
     display: flex;
@@ -9,6 +10,7 @@
     align-items: center;
     flex-direction: column;
     position: relative;
+    overflow-x: hidden;
     .avatar{
         width: 12rem;
         height: 12rem;
